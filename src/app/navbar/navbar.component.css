@@ -8,6 +8,14 @@ nav{
     padding-top: 1%;
     padding-bottom: 1%;
 }
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    text-decoration: underline;
+    color:white;
+}
 .navContent{
     width:50%;
     height:100%;
