@@ -1,0 +1,16 @@
+.bottomContact{
+    height:100%;
+    width:100%;
+    padding-top:1%;
+    padding-bottom:1%;
+    margin-top:3%;
+    float:right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(155, 155, 155);
+    font-family: 'Muli', sans-serif;
+}
+.bottomContactContent{
+    height:100%;
+}

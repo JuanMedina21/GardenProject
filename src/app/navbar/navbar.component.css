@@ -1,0 +1,24 @@
+nav{
+    width:80%;
+    height:98%;
+    float:right;
+    background-color: #457585;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.navContent{
+    width:50%;
+    height:100%;
+    float:right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navText{
+    font-size: 2.5vw;
+    padding-top: 3.7%;
+    color:white;
+    font-family: 'Muli', sans-serif;
+}
