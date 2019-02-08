@@ -28,7 +28,4 @@ export class DisplayProductComponent implements OnInit {
   delete(product: Product): void {
     this.psService.deleteProduct(product).subscribe();
   }
-
-
-
 }
