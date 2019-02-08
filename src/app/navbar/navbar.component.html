@@ -1,11 +1,17 @@
 <nav>
+
+  <div class='navLogo'><img src='../../assets/logo.png' height = '70px'></div>
+
   <a href="/"><img src='../../assets/logo.png' height = '70px'></a>
+
   <div class='navContent'>
     <a href = '#about' class = 'navText'>About </a>
     <b class = 'navText'>|</b>
     <a href='#contact' class = 'navText'> Contact </a>
     <b class = 'navText'>|</b>
     <a routerLink='/products' class = 'navText'> Products</a>
+  </div></nav>
+  
+    <div id='products'>
     <router-outlet></router-outlet>
-  </div>
-</nav>
+    </div>

@@ -19,16 +19,13 @@ import { AppRoutingModule } from './app-routing.module';
 @NgModule({
   declarations: [
     AppComponent,
-
     NavbarComponent,
     AboutCoComponent,
     ContactComponent,
     FooterComponent,
     BannerComponent,
-
     DisplayProductComponent,
     CreateProductComponent
-
   ],
   imports: [
     BrowserModule, 
