@@ -23,7 +23,7 @@ export class ProductService {
   
   deleteProduct (product: Product | number): Observable<Product> {
     const id = typeof product === 'number' ? product : product.id;
-    const url = `${this.psUrl}`;
+    const url = `${this.psUrl}/${id}`;
 
     return this.http.delete<Product>(url, httpOptions).pipe(
       tap(_ => this.log(`deleted hero id=${id}`)),

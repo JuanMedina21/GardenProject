@@ -4,7 +4,8 @@
     <img src="{{ _product.product_image }}" alt="Product">
     <h4><b>{{ _product.product_name }}</b></h4>
     <p>{{ _product.product_description }}</p>
-    <p>{{ _product.product_price }}</p>
+    <p>${{ _product.product_price }}</p>
+    <p>id #{{_product.id }}</p>
     <button class="delete" title="delete product"
   (click)="delete(product)">Delete</button>
   </div>

@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../product.service';
-import { Product } from '../models/product.models';
 
 @Component({
   selector: 'app-create-product',
@@ -22,9 +21,6 @@ export class CreateProductComponent implements OnInit {
     })
   }
 
-  delete(product: Product): void {
-    this.products = this.products.filter(p => p !== product);
-    this.psService.deleteProduct(product).subscribe();
-  }
+ 
 
 }
