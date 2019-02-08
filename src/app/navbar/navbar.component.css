@@ -16,6 +16,11 @@ a:hover{
     text-decoration: underline;
     color:white;
 }
+.navLogo{
+    width:50%;
+    height:100%;
+    float:left;
+}
 .navContent{
     width:50%;
     height:100%;
@@ -25,8 +30,19 @@ a:hover{
     justify-content: space-around;
 }
 .navText{
-    font-size: 1.5vw;
+    font-size: 1.7vw;
     padding-top: 3.7%;
     color:white;
     font-family: 'Muli', sans-serif;
+}
+#products{
+    width:100%;
+    height: auto;
+    float:left;
+    display:flex;
+    background-color:#D5A16B ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align:center;
+    justify-content: space-between;
 }
