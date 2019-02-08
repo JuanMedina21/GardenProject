@@ -1,0 +1,17 @@
+.banner {
+    width:80%;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top: 6.5%;
+    padding-bottom:2.5%;
+    text-align:center;
+    background-attachment: fixed;
+    background-image: url('../../assets/dirt.jpg');
+    background-position: center;
+    background-size: cover;
+    font-size: 8vw;
+    text-align:center;
+    color:rgb(247, 232, 232);
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 4px 4px #D5A16B;
+}
