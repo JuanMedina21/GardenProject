@@ -6,7 +6,7 @@ import { catchError, map, tap } from 'rxjs/operators';
 
 
 const httpOptions = {
-  headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+  headers: new HttpHeaders({ 'Content-Type': 'application/json', 'Authorization' : 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InR3ZXN0QGdtYWlsLmNvbSIsImlhdCI6MTU0OTY0MDIwOCwiZXhwIjoxNTQ5NzI2NjA4fQ.vdZlKo324rxMxh25shopxDrQju31HKzjLo1MntqAocY' })
 };
 
 @Injectable({
