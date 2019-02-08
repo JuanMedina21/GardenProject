@@ -1,9 +1,14 @@
 <div class="card">
-    <img src="{{ _product.product_image }}" alt="Product">
-    <h4><b>{{ _product.product_name }}</b></h4>
-    <p>{{ _product.product_description }}</p>
-    <p>${{ _product.product_price }}</p>
-    <p>id #{{_product.id }}</p>
+  <div class='photoBox'>
+    <img src="{{ _product.product_image }}" alt="Product" height='100px' class='photos'>
+  </div>
+  <div class='productInfo'>
+    <b>{{ _product.product_name }}</b><br>
+    {{ _product.product_description }}
+    <p>${{ _product.product_price }}
+    <i>id #{{_product.id }} </i></p>
+</div>
+<div class='buttonBox'>
     <button class="delete" title="delete product"
-  (click)="delete(product)">Delete</button>
+  (click)="delete(product)">Delete</button></div>
 </div>
