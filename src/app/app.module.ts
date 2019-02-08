@@ -24,7 +24,7 @@ import { AppRoutingModule } from './app-routing.module';
     AboutCoComponent,
     ContactComponent,
     FooterComponent,
-    BannerComponent
+    BannerComponent,
 
     DisplayProductComponent,
     CreateProductComponent
