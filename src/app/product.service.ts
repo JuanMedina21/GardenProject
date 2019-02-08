@@ -21,7 +21,7 @@ export class ProductService {
     return this.http.get<Product[]>(this.psUrl);
   }
   
-  deleteProduct (product: Product | number): Observable<Product> {
+  deleteProduct (product: Product): Observable<Product> {
     const id = typeof product === 'number' ? product : product.id;
     const url = `${this.psUrl}/${id}`;
 

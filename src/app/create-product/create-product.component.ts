@@ -11,10 +11,10 @@ export class CreateProductComponent implements OnInit {
   constructor(private psService: ProductService) { }
 
   ngOnInit() {
-    this.findBooks();
+    this.findProducts();
   }
 
-  findBooks() : void {
+  findProducts() : void {
     this.psService.getProducts().subscribe(Products => {
       this.products = Products;
       this.products.reverse();
