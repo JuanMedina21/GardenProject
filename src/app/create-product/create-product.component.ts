@@ -17,10 +17,7 @@ export class CreateProductComponent implements OnInit {
   findProducts() : void {
     this.psService.getProducts().subscribe(Products => {
       this.products = Products;
-      this.products.reverse();
     })
   }
-
- 
 
 }
