@@ -35,6 +35,7 @@ a:hover{
     color:white;
     font-family: 'Muli', sans-serif;
 }
+
 #products{
     width:100%;
     height: auto;
@@ -46,3 +47,4 @@ a:hover{
     text-align:center;
     justify-content: space-between;
 }
+
